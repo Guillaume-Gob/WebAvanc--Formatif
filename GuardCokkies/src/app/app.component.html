@@ -1,0 +1,15 @@
+<div>
+  <label>
+    <input type="checkbox" [(ngModel)]="aimeLesChosesSucrees" (change)="sauvegarderEtat()">
+    J’aime les choses sucrées !
+  </label>
+</div>
+<div>
+  <label>
+    <input type="checkbox" [(ngModel)]="aimeLesChosesSalees" (change)="sauvegarderEtat()">
+    J’aime les choses salées !
+  </label>
+</div>
+<div>
+  <button (click)="jaiFaim()">J’ai faim !</button>
+</div>
